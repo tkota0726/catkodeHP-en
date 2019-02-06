@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    /* background-color: #505962; to see nav before adding landing img */
+}
+
+/* NavScrolling Offset */
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
+
+/* Extra Bootstra Column Padding */
+[class*="col-"]{
+    padding: 1rem;
+}
+
+.navbar {
+    padding: .7rem, 1rem;
+    text-transform: uppercse;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    transition: background-color .5s ease 0s;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.svg-inline--fa.fa-bars.fa-w-14 {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.navbar-nav li {
+    padding-right: .8rem;
+
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+.navbar {
+    background: black!important;
+    transition: background-color 1s ease 0s;
+}
+
+/* LNDING PAGE */
+
+.home-inner{
+    background-image: url(img/adorable-animal-cat.png)
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+}
+
+
+.caption h1 {
+    color: white;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.os-animation h3 {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 2rem;
+}
+
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block!important;
+}
+
+/* FEATURE  SECTION*/
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.btn-sm {
+    border-width: medium;
+    border-radius: 0;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.btn-turquoise {
+    border-color: #1ebb3a;
+    background-color: #1ebb3a;
+    color: white;
+}
+
+.btn-turquoise:hover,
+.btn-turquoise:focus{
+    border-color: #189582;
+    background-color: #189582;
+    color: white;
+}
+
+
+
+
